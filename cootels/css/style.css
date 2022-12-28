@@ -156,9 +156,14 @@ h3 {
 .footer__blocks {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .footer__block {
-  flex-basis: 50%;
+  flex-grow: 1;
+  margin: 24px 0;
+}
+.footer__block:first-child {
+  flex-basis: 200px;
 }
 .footer__description {
   color: #D9DBDE;
@@ -175,6 +180,11 @@ h3 {
 .footer__lists {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  flex-basis: 500px;
+}
+.footer__list {
+  flex-basis: 150px;
 }
 .footer__element {
   color: #D9DBDE;
