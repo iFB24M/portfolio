@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreateX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <!-- Подключение главного CSS-файла -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+    <div class="header__container">
+        <img src="img/logo.svg" alt="Не удалось загрузить изображение" class="header__logo">
+        <div class="header__menu menu">
+            <!--<div class="menu__icon" id="menu-icon"><span></span></div>-->
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link base-bold">About Us</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link base-bold">Services</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link base-bold">Work</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link base-bold">News</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link base-bold">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+        <ul class="header__contacts">
+            <li class="header__contact">
+                <svg class="header__icon"><use href="img/icons/icons.svg#phone"></use></svg>
+                <div class="header__info">
+                    <div class="header__contact-name small-bold">Call us</div>
+                    <a class="header__contact-value large-regular" href="tel:+78005553535">(405) 555-0128</a>
+                </div>
+            </li>
+            <li class="header__contact">
+                <svg class="header__icon"><use href="img/icons/icons.svg#chat"></use></svg>
+                <div class="header__info">
+                    <div class="header__contact-name small-bold">Talk to us</div>
+                    <a class="header__contact-value large-regular" href="mailto:hello@createx.com">hello@createx.com</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</header>
+    <main class="main">
+      <div class="welcome">
+  <div class="welcome__container">
+    <div class="welcome__wrapper">
+      <h1 class="welcome__title">
+        create<span>x</span> <br>
+        construction
+      </h1>
+      <p class="welcome__description lead-regular">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a quasi earum iure voluptates pariatur velit quos magni ducimus. Maxime doloremque aliquid eos eligendi eius esse minima itaque pariatur eaque?
+      </p>
+      <div class="welcome__buttons">
+        <a href="#" class="welcome__button button button_color_transparent">Learn more about us</a>
+        <a href="#" class="welcome__button button button_color_orange">SUBMIT REQUEST</a>
+      </div>
+    </div>
+  </div> 
+  <div class="welcome__slider welcome-slider swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/welcome-image.webp" alt="Не удалось загрузить изображение" class="welcome__image">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/welcome-image.webp" alt="Не удалось загрузить изображение" class="welcome__image">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/welcome-image.webp" alt="Не удалось загрузить изображение" class="welcome__image">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/welcome-image.webp" alt="Не удалось загрузить изображение" class="welcome__image">
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="about">
+  <div class="about__container">
+    <h2 class="about__title">We are Createx Construction Bureau </h2>
+    <p class="about__description large-regular">We are rightfully considered to be the best construction company in the USA.</p>
+    <iframe class="about__video" width="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
+      <div class="advantages">
+  <div class="advantages__container">
+    <h2 class="advantages__title">Our core values</h2>
+    <p class="advantages__description large-regular">Our mission is to set the highest standards for construction sphere.</p>
+    <div class="advantages__cards">
+      <div class="advantages__card card-advantages">
+        <svg class="card-advantages__icon"><use href="img/icons/icons.svg#like"></use></svg>
+        <p class="card-advantages__title lead-bold">Quality</p>
+        <p class="card-advantages__description base-regular">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
+      </div>
+      <div class="advantages__card card-advantages">
+        <svg class="card-advantages__icon"><use href="img/icons/icons.svg#hand"></use></svg>
+        <p class="card-advantages__title lead-bold">Safety</p>
+        <p class="card-advantages__description base-regular">Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing. Minim empor est ea.</p>
+      </div>
+      <div class="advantages__card card-advantages">
+        <svg class="card-advantages__icon"><use href="img/icons/icons.svg#slippers"></use></svg>
+        <p class="card-advantages__title lead-bold">Comfort</p>
+        <p class="card-advantages__description base-regular">Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad.</p>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="ask-us">
+  <div class="ask-us__container">
+    <h3 class="ask-us__title">Want to know more? Ask us a question:</h3>
+    <form action="#" class="ask-us__form">
+      <div class="ask-us__block">
+        <label for="name" class="ask-us__label small-regular">Name</label>
+        <input type="text" class="ask-us__input" id="name" name="name" placeholder="Your name">
+      </div>
+      <div class="ask-us__block">
+        <label for="phone" class="ask-us__label small-regular">Phone</label>
+        <input type="text" class="ask-us__input" id="phone" name="phone" placeholder="Your phone">
+      </div>
+      <div class="ask-us__block">
+        <label for="message" class="ask-us__label small-regular">Message</label>
+        <input type="text" class="ask-us__input" id="message" name="message" placeholder="Your message">
+      </div>
+      <div class="ask-us__block">
+        <button type="submit" class="ask-us__button button button_color_orange">Send</button>
+      </div>
+    </form>
+  </div>
+</div>
+      <div class="services">
+  <div class="services__container">
+    <h2 class="services__title">Our Services</h2>
+    <p class="services__description large-regular">Createx Construction Bureau is a construction giant with a full range of construction services.</p>
+    <div class="services__cards">
+      <div class="services__card">
+        <a href="#" class="services__link">
+          <div class="services__cover">
+            <svg class="services__icon"><use href="img/icons/icons.svg#construction"></use></svg>
+            <p class="services__title lead-bold">Construction</p>
+          </div>
+          <img src="img/services-background.webp" alt="Не удалось загрузить изображение" class="services__image">
+        </a>
+      </div>
+      <div class="services__card">
+        <a href="#" class="services__link">
+          <div class="services__cover">
+            <svg class="services__icon"><use href="img/icons/icons.svg#plan"></use></svg>
+            <p class="services__title lead-bold">Project Development</p>
+          </div>
+          <img src="img/services-background.webp" alt="Не удалось загрузить изображение" class="services__image">
+        </a>
+      </div>
+      <div class="services__card">
+        <a href="#" class="services__link">
+          <div class="services__cover">
+            <svg class="services__icon"><use href="img/icons/icons.svg#design"></use></svg>
+            <p class="services__title lead-bold">Interior Design</p>
+          </div>
+          <img src="img/services-background.webp" alt="Не удалось загрузить изображение" class="services__image">
+        </a>
+      </div>
+      <div class="services__card">
+        <a href="#" class="services__link">
+          <div class="services__cover">
+            <svg class="services__icon"><use href="img/icons/icons.svg#repairs"></use></svg>
+            <p class="services__title lead-bold">Repairs</p>
+          </div>
+          <img src="img/services-background.webp" alt="Не удалось загрузить изображение" class="services__image">
+        </a>
+      </div>
+    </div>
+    <div class="services__more">
+      <h3 class="services__subtitle">Learn more about our services</h3>
+      <a href="#" class="services__button button button_color_orange">View services</a>
+    </div>
+  </div>
+</div>
+      <div class="portfolio">
+  <div class="portfolio__container">
+    <div class="portfolio__header">
+      <h2 class="portfolio__title">Browse our selected projects 
+        and learn more about our work</h2>
+      <div class="portfolio__arrows slider-arrows">
+        <div class="portfolio__arrow portfolio__arrow_prev slider-arrow-prev" id="portfolio-next"><svg class="portfolio__icon"><use href="img/icons/icons.svg#slider-arrow"></use></svg></div>
+        <div class="portfolio__arrow portfolio__arrow_next slider-arrow-next" id="portfolio-prev"><svg class="portfolio__icon"><use href="img/icons/icons.svg#slider-arrow"></use></svg></div>
+      </div>
+    </div>
+    
+    <div class="portfolio__slider swiper">
+      <div class="portfolio__wrapper swiper-wrapper">
+        <div class="portfolio__slide swiper-slide">
+          <img src="img/project-1.webp" alt="Не удалось загрузить изображение" class="portfolio__image">
+          <div class="portfolio__info">
+            <div class="portfolio__info">
+              <p class="portfolio__subtitle lead-bold">Title title long</p>
+              <div class="portfolio__small-subtitle small-regular">Buisiness center</div>
+              <a href="#" class="portfolio__button button button_color_transparent-orange">View project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__slide swiper-slide">
+          <img src="img/project-2.webp" alt="Не удалось загрузить изображение" class="portfolio__image">
+          <div class="portfolio__info">
+            <div class="portfolio__info">
+              <p class="portfolio__subtitle lead-bold">Title title long</p>
+              <div class="portfolio__small-subtitle small-regular">Buisiness center</div>
+              <a href="#" class="portfolio__button button button_color_transparent-orange">View project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__slide swiper-slide">
+          <img src="img/project-3.webp" alt="Не удалось загрузить изображение" class="portfolio__image">
+          <div class="portfolio__info">
+            <div class="portfolio__info">
+              <p class="portfolio__subtitle lead-bold">Title title long</p>
+              <div class="portfolio__small-subtitle small-regular">Buisiness center</div>
+              <a href="#" class="portfolio__button button button_color_transparent-orange">View project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="reviews">
+  <div class="reviews__container">
+    <div class="reviews__reviews">
+      <div class="reviews__blocks">
+        <div class="reviews__block">
+          <h2 class="reviews__title">What our clients are saying</h2>
+          <div class="reviews__slider swiper">
+            <div class="reviews__wrapper swiper-wrapper">
+              <div class="reviews__slide swiper-slide reviews-review">
+                <img src="img/review-avatar.webp" alt="Не удалось загрузить изображение" class="reviews-review__avatar">
+                <p class="reviews-review__text base-regular">Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim  laboris cillum laboris voluptate minim proident exercitation ullamco. </p>
+                <div class="reviews-review__author">
+                  <span class="reviews-review__name base-bold">Shawn Edwards</span>
+                  <div class="reviews-review__work-title small-regular">Position, Company Name</div>
+                </div>
+              </div>
+              <div class="reviews__slide swiper-slide reviews-review">
+                <img src="img/review-avatar.webp" alt="Не удалось загрузить изображение" class="reviews-review__avatar">
+                <p class="reviews-review__text base-regular">Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim  laboris cillum laboris voluptate minim proident exercitation ullamco. </p>
+                <div class="reviews-review__author">
+                  <span class="reviews-review__name base-bold">Shawn Edwards</span>
+                  <div class="reviews-review__work-title small-regular">Position, Company Name</div>
+                </div>
+              </div>
+              <div class="reviews__slide swiper-slide reviews-review">
+                <img src="img/review-avatar.webp" alt="Не удалось загрузить изображение" class="reviews-review__avatar">
+                <p class="reviews-review__text base-regular">Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim  laboris cillum laboris voluptate minim proident exercitation ullamco. </p>
+                <div class="reviews-review__author">
+                  <span class="reviews-review__name base-bold">Shawn Edwards</span>
+                  <div class="reviews-review__work-title small-regular">Position, Company Name</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__arrows slider-arrows">
+            <div class="reviews__arrow slider-arrow-prev" id="reviews-prev"><svg class="reviews__icon"><use href="img/icons/icons.svg#slider-arrow"></use></svg></div>
+            <div class="reviews__arrow slider-arrow-next" id="reviews-next"><svg class="reviews__icon"><use href="img/icons/icons.svg#slider-arrow"></use></svg></div>
+          </div>
+        </div>
+        <div class="reviews__block"> 
+          <img src="img/reviews-image.webp" alt="Не удалось загрузить изображение" class="reviews__image">
+        </div>
+      </div>
+    </div>
+    <div class="reviews__partners reviews-partners">
+      <h2 class="reviews-partners__title">Supported by 12+ partners</h2>
+      <ul class="reviews-partners__cards">
+        <li class="reviews__card">
+          <img src="img/client-logo.webp" alt="Не удалось загрузить изображение" class="reviews-partners__logo">
+        </li>
+        <li class="reviews-partners__card">
+          <img src="img/client-logo-1.webp" alt="Не удалось загрузить изображение" class="reviews-partners__logo">
+        </li>
+        <li class="reviews__card">
+          <img src="img/client-logo-2.webp" alt="Не удалось загрузить изображение" class="reviews-partners__logo">
+        </li>
+        <li class="reviews__card">
+          <img src="img/client-logo-3.webp" alt="Не удалось загрузить изображение" class="reviews-partners__logo">
+        </li>
+        <li class="reviews__card">
+          <img src="img/client-logo-4.webp" alt="Не удалось загрузить изображение" class="reviews-partners__logo">
+        </li>
+        <li class="reviews__card">
+          <img src="img/client-logo-5.webp" alt="Не удалось загрузить изображение" class="reviews-partners__logo">
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+      <div class="statistics">
+  <div class="statistics__container">
+    <h2 class="statistics__title">Some facts and figures</h2>
+    <ul class="statistics__list">
+      <li class="statistics__item statistics-card">
+        <img src="img/circle-progress-1.svg" alt="Не удалось загрузить изображение" class="statistics-card__image">
+        <h3 class="statistics-card__title small-regular">Totally satisfied clients</h3>
+      </li>
+      <li class="statistics__item statistics-card">
+        <img src="img/circle-progress-2.svg" alt="Не удалось загрузить изображение" class="statistics-card__image">
+        <h3 class="statistics-card__title small-regular">Years of experience</h3>
+      </li>
+      <li class="statistics__item statistics-card">
+        <img src="img/circle-progress-3.svg" alt="Не удалось загрузить изображение" class="statistics-card__image">
+        <h3 class="statistics-card__title small-regular">Working hours spent</h3>
+      </li>
+      <li class="statistics__item statistics-card">
+        <img src="img/circle-progress-4.svg" alt="Не удалось загрузить изображение" class="statistics-card__image">
+        <h3 class="statistics-card__title small-regular">Succeeded projects</h3>
+      </li>
+    </ul>
+  </div>
+</div>
+      <div class="recent-news">
+  <div class="recent-news__container">
+    <div class="recent-news__big-block">
+      <div class="recent-news__block">
+        <a href="#" class="recent-news__link">
+          <img src="img/news-image.webp" alt="Не удалось загрузить изображение" class="recent-news__image">
+          <div class="recent-news__info">
+            <h3 class="recent-news__new-title">How to Build Climate Change-Resilient Infrastructure</h3>
+            <div class="recent-news__branding small-regular">Industry News | June 24, 2020 | 4 comments</div>
+            <div class="recent-news__except base-regular">Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas faucibus. Tincidunt aliquet sit vel, venenatis nulla. Integer bibendum turpis convallis enim, nibh convallis... Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, eius? Nisi consequatur, placeat reprehenderit saepe sed possimus expedita voluptatem nulla excepturi corrupti, laborum quisquam nam explicabo adipisci non quibusdam quam.</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="recent-news__small-blocks">
+      <div class="recent-news__block">
+        <a href="#" class="recent-news__link">
+          <img src="img/news-image.webp" alt="Не удалось загрузить изображение" class="recent-news__image">
+          <div class="recent-news__info">
+            <h3 class="recent-news__new-title">How Construction Can Help Itself</h3>
+            <div class="recent-news__branding small-regular">Innovation | June 12, 2020 | No comments</div>
+          </div>
+        </a>
+      </div>
+      <div class="recent-news__block">
+        <a href="#" class="recent-news__link">
+          <img src="img/news-image.webp" alt="Не удалось загрузить изображение" class="recent-news__image">
+          <div class="recent-news__info">
+            <h3 class="recent-news__new-title">Types of Flooring Materials</h3>
+            <div class="recent-news__branding small-regular">Company News | December 1, 2019 | No comments</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+    </main>
+    <footer class="footer">
+    <div class="footer__form-block footer-form-block">
+        <div class="footer-form-block__container">
+            <form action="#" class="footer-form-block__form footer-form">
+                <h3 class="footer-form__title"></h3>
+                <div class="footer-form__block">
+                    <label for="name" class="footer-form__label">Name</label>
+                    <input type="text" class="footer-form__input" id="name" name="name" placeholder="Your name">
+                </div>
+                <div class="footer-form__block">
+                    <label for="phone" class="footer-form__label">Phone</label>
+                    <input type="text" class="footer-form__input" id="phone" name="phone" placeholder="Your phone number">
+                </div>
+                <div class="footer-form__block">
+                    <label for="email" class="footer-form__label">Email</label>
+                    <input type="text" class="footer-form__input" id="email" name="email" placeholder="Your working email">
+                </div>
+                <div class="footer-form__block">
+                    <label for="message" class="footer-form__label">Message</label>
+                    <textarea class="footer-form__textarea" id="message" name="message" placeholder="Your message"></textarea>
+                </div>
+                <div class="footer-form__block">
+                    <input type="checkbox" name="agree-policy" id="agree-policy" class="footer-form__checkbox">
+                    <label for="agree-policy" class="footer-form__label">I agree to receive communications from Createx Construction Bureau.</label>
+                </div>
+                <div class="footer-form__block">
+                    <button class="footer-form__button button button_color_orange small-regular" type="submit">send request</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer__main-block footer-main-block">
+        <div class="footer-main-block__container">
+            <div class="footer-main-block__company">
+                <div class="footer-main-block__block">
+                    <div class="footer-main-block__social">
+                        <img src="img/logo-white.svg" alt="Не удалось загрузить изображение" class="footer-main-block__logo">
+                        <ul class="footer-main-block__social-icons">
+                            <li class="footer-main-block__social-icon"><svg class="footer-main-block__icon"><use href="img/icons/icons.svg#Whatsapp"></use></svg></li>
+                            <li class="footer-main-block__social-icon"><svg class="footer-main-block__icon"><use href="img/icons/icons.svg#Messanger"></use></svg></li>
+                            <li class="footer-main-block__social-icon"><svg class="footer-main-block__icon"><use href="img/icons/icons.svg#Facebook"></use></svg></li>
+                            <li class="footer-main-block__social-icon"><svg class="footer-main-block__icon"><use href="img/icons/icons.svg#Twitter"></use></svg></li>
+                            <li class="footer-main-block__social-icon"><svg class="footer-main-block__icon"><use href="img/icons/icons.svg#YouTube"></use></svg></li>
+                        </ul>
+                    </div>
+                    <p class="footer-main-block__description">
+                        Createx Construction Bureau has been successfully operating in the USA construction market since 2000. We are proud to offer you quality construction and exemplary service. Our mission is to set the highest standards for construction sphere.
+                    </p>
+                </div>
+                <div class="footer-main-block__block">
+                    <h4 class="footer-main-block__title">Let’s stay in touch</h4>
+                    <form class="footer-main-block__form">
+                        <input type="text" class="footer-main-block__input" name="email" id="email" placeholder="Your email address ">
+                        <button class="footer-main-block__button" type="submit">subscribe</button>
+                    </form>
+                    <p class="footer-main-block__small-text">*Subscribe to our newsletter to receive communications and early updates from Createx Construction Bureau.</p>
+                </div>
+            </div>
+            <div class="footer-main-block__menu footer-menu">
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">HEAD OFFICE</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link"><span>Address:</span> 8502 Preston Rd. Inglewood, New York</a></li>
+                    <li class="footer-menu__item"><a href="tel:4055550128" class="footer-menu__link"><span>Call:</span> (405) 555-0128</a></li>
+                </ul>
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">WHO WE ARE</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">About Us</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Available Positions</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Contacts</a></li>
+                </ul>
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">OUR EXPERIENCE</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Services</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Work</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">News</a></li>
+                </ul>
+            </div>
+            <div class="footer-main-block__copyright">
+                <div class="footer-main-block__rights">© All rights reserved. Made with <span>❤️</span> by Createx Studio </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+    <button class="multypage-open" id="multypage-open">Информация + все страницы</button>
+<div class="multypage">
+    <div class="multypage__window">
+        <div class="multypage__info">
+            <p class="multypage__paragraph">
+                <span>CreateX</span>
+                
+                Верстка CreateX имеет высокую скорость загрузки, благодаря использованию легковесных форматов изображений и шрифтов, а выглядит одинаково хорошо на любых популярных размерах экранов.
+                <span>Выполнено FB24M</span>
+                <span>Список страниц:</span>
+            </p>
+        </div>
+        
+        <ol class="multypage__list">
+            <li class="multypage__element"><a href="index.html" class="multypage__link">Главная</a></li>
+        </ol>
+    </div>
+</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- Подключение главного JavaScript-файла -->
+<script src="js/app.min.js"></script>
+</body>
+</html>

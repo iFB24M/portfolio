@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoElectrics</title>
+    <link rel="stylesheet" href="css/modules.css">
+    <!-- Подключение главного CSS-файла -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+  <div class="header__container">
+    <div class="header__block">
+      <div class="header__burger" data-open-block="menu"><span></span></div>
+      <img src="img/header/logo.svg" alt="Не удалось загрузить изображение" class="header__logo">
+      <a href="" class="header__button button button_m button_color_orange">
+        <img src="img/header/catalog-icon.svg" alt="Не удалось загрузить изображение" class="header__catalog-icon"> <span>Каталог</span>
+      </a>
+
+      <div class="header__search-box">
+        <input type="text" class="header__input" id="search" placeholder="Я ищу">
+        <button class="header__loup"><img src="img/header/search-loup-icon.svg" alt="Не удалось загрузить изображение"
+            class="header__search-icon"></button>
+      </div>
+
+      <button class="header__loup-adaptive">
+        <img src="img/header/search-loup-icon.svg" alt="Не удалось загрузить изображение" class="header__search-icon" data-open-block="search-box">
+      </button>
+
+      <div class="header__user">
+        <ul class="header__icons">
+          <li class="header__icon bottom-bar">
+            <a href="#" class="header__user-icon-link">
+              <img src="img/header/header-user-icon-01.svg" alt="Не удалось загрузить изображение" class="header__img">
+              <span class="header__title">Главная</span>
+            </a>
+          </li>
+          <li class="header__icon bottom-bar">
+            <a href="#" class="header__user-icon-link">
+              <img src="img/header/header-user-icon-01.svg" alt="Не удалось загрузить изображение" class="header__img">
+              <span class="header__title">Каталог</span>
+            </a>
+          </li>
+          <li class="header__icon">
+            <a href="#" class="header__user-icon-link">
+              <img src="img/header/header-user-icon-01.svg" alt="Не удалось загрузить изображение" class="header__img">
+              <span class="header__title">Корзина</span>
+            </a>
+          </li>
+          <li class="header__icon">
+            <a href="#" class="header__user-icon-link">
+              <img src="img/header/header-user-icon-02.svg" alt="Не удалось загрузить изображение" class="header__img">
+              <span class="header__title">Избранное</span>
+            </a>
+          </li>
+          <li class="header__icon">
+            <a href="#" class="header__user-icon-link">
+              <img src="img/header/header-user-icon-03.svg" alt="Не удалось загрузить изображение" class="header__img">
+              <span class="header__title">Профиль</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="header__block">
+      <span class="header__description">Динамично. Надежно. Доступно.</span>
+      <select class="header__lang-select" id="lang" name="lang">
+        <option value="ru" class="header__lang-option" data-flag="img/header/flag-ru.svg">RU</option>
+      </select>
+      <div class="header__menu menu">
+        <nav class="menu__body">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#" class="menu__link">О компании</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Клиентам</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Сотрудничество</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <ul class="header__social-icons">
+        <li class="header__social-icon"><a href="#" class="header__social-link"><img src="img/header/telegram.svg"
+              alt="Не удалось загрузить изображение" class="header__social-img"></a></li>
+        <li class="header__social-icon"><a href="#" class="header__social-link"><img src="img/header/vk.svg" alt="Не удалось загрузить изображение"
+              class="header__social-img"></a></li>
+      </ul>
+      <div class="header__phone">
+        <div class="header__spoiler header-spoiler" data-spoiler>
+          <div class="header-spoiler__title spoiler-title">8 (800) 455-45-11</div>
+          <div class="header-spoiler__content spoiler-content">8 (800) 455-45-11 <br> 8 (800) 455-45-11</div>
+        </div>
+        <a href="#" class="header__callback button button_s button_color_orange"><img src="img/header/phone-icon.svg" alt="Не удалось загрузить изображение"> <span>Заказать звонок</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+    <main class="main">
+      
+    </main>
+    <footer class="footer">
+    <div class="footer__container">
+        
+    </div>
+</footer>
+    
+    <button class="multypage-open" id="multypage-open">Информация + все страницы</button>
+<div class="multypage">
+    <div class="multypage__window">
+        <div class="multypage__info">
+            <p class="multypage__paragraph">
+                <span>AutoElectrics</span>
+                
+                Верстка AutoElectrics имеет высокую скорость загрузки, благодаря использованию легковесных форматов изображений и шрифтов, а выглядит одинаково хорошо на любых популярных размерах экранов.
+                <span>Выполнено FB24M</span>
+                <span>Список страниц:</span>
+            </p>
+        </div>
+        
+        <ol class="multypage__list">
+            <li class="multypage__element"><a href="index.html" class="multypage__link">Главная</a></li>
+        </ol>
+    </div>
+</div>
+  </div>
+  <!-- Подключение главного JavaScript-файла -->
+<script src="js/app.min.js"></script>
+</body>
+</html>

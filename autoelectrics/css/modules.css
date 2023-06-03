@@ -1,0 +1,1 @@
+.spoiler-title{position:relative;display:flex;align-items:center;background-color:#fff;z-index:1}.spoiler-content:not(.fz){transition:all .3s ease;opacity:0}._spoiler-opened .spoiler-content:not(.fz){opacity:1}
