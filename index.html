@@ -1,136 +1,21 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fb24m</title>
-    <link rel="stylesheet" href="css/modules.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
-    <!-- Подключение главного CSS-файла -->
-    <link rel="stylesheet" href="css/style.min.css">
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React + TS</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet" />
+  <script type="module" crossorigin src="assets/index-3a1691b3.js"></script>
+  <link rel="stylesheet" href="assets/index-3081c00c.css">
 </head>
 
 <body>
-  <div class="wrapper">
-    <header class="header">
-    <div class="header__container">
-        
-    </div>
-</header>
-    <div class="welcome">
-      <span class="welcome__hello" data-typing="hello," data-cursor-height="22px"></span>
-      <h1 class="welcome__hello" data-typing="I'm &lt;fb24m /&gt" data-delay="1700" data-cursor-height="48px"></h1>
+  <div id="root"></div>
 
-      <div class="arrow"></div>
-    </div>
-    <main class="main">
-      <div class="main__container">
-        <h1 class="main__title animated">Frontend Developer</h1>
-
-        <p class="main__description animated">
-          I have been working in this field for several years, but during this time I have made many different websites.
-        </p>
-
-        <div class="divider"></div>
-      </div>
-      <div class="technologies">
-        <div class="technologies__container">
-          <h2 class="technologies__title animated">I work with many technologies in my field</h2>
-          <div class="technologies__slider swiper animated">
-            <div class="technologies__wrapper swiper-wrapper">
-              <div class="technologies__slide swiper-slide">React</div>
-              <div class="technologies__slide swiper-slide">Gulp</div>
-              <div class="technologies__slide swiper-slide">SCSS</div>
-              <div class="technologies__slide swiper-slide">JavaScript</div>
-              <div class="technologies__slide swiper-slide">TypeScript</div>
-              <div class="technologies__slide swiper-slide">Vite</div>
-              <div class="technologies__slide swiper-slide">WebPack</div>
-              <div class="technologies__slide swiper-slide">BEM</div>
-              <div class="technologies__slide swiper-slide">Git</div>
-              <div class="technologies__slide swiper-slide">Swiper</div>
-              <div class="technologies__slide swiper-slide">NPM</div>
-              <div class="technologies__slide swiper-slide">Figma</div>
-              <div class="technologies__slide swiper-slide">Github</div>
-              <div class="technologies__slide swiper-slide">HTML</div>
-              <div class="technologies__slide swiper-slide">CSS</div>
-              <div class="technologies__slide swiper-slide">Flex</div>
-              <div class="technologies__slide swiper-slide">Grid</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="portfolio">
-        <div class="portfolio__container">
-          <h2 class="portfolio__title animated" id="portfolio-title">Portfolio</h2>
-          <div class="portfolio__cards">
-            <div class="portfolio__card animated">
-              <img src="img/portfolio-01.webp" alt="Не удалось загрузить изображение" class="portfolio__image">
-              <h3 class="portfolio__title-card"><a href="https://ifb24m.github.io/portfolio/trendsoft"
-                  class="portfolio__link">Responsive layout of the TrendSoft
-                  website</a></h3>
-            </div>
-            <div class="portfolio__card animated">
-              <img src="img/portfolio-02.webp" alt="Не удалось загрузить изображение" class="portfolio__image">
-              <h3 class="portfolio__title-card"><a href="https://ifb24m.github.io/portfolio/product"
-                  class="portfolio__link">Responsive layout of the Product
-                  website</a></h3>
-            </div>
-            <div class="portfolio__card animated">
-              <img src="img/portfolio-03.webp" alt="Не удалось загрузить изображение" class="portfolio__image">
-              <h3 class="portfolio__title-card"><a href="https://ifb24m.github.io/portfolio/yourschool"
-                  class="portfolio__link">Responsive layout of the Your School
-                  website</a></h3>
-            </div>
-            <div class="portfolio__card animated">
-              <img src="img/portfolio-04.webp" alt="Не удалось загрузить изображение" class="portfolio__image">
-              <h3 class="portfolio__title-card"><a href="https://ifb24m.github.io/portfolio/cootels"
-                  class="portfolio__link">Responsive layout of the Cootels
-                  website</a></h3>
-            </div>
-            <div class="portfolio__card animated">
-              <img src="img/portfolio-05.webp" alt="Не удалось загрузить изображение" class="portfolio__image">
-              <h3 class="portfolio__title-card"><a href="https://ifb24m.github.io/portfolio/bello"
-                  class="portfolio__link">Responsive layout of the bello
-                  website</a></h3>
-            </div>
-            <div class="portfolio__card animated">
-              <img src="img/portfolio-06.webp" alt="Не удалось загрузить изображение" class="portfolio__image">
-              <h3 class="portfolio__title-card"><a href="https://ifb24m.github.io/portfolio/createx"
-                  class="portfolio__link">Responsive layout of the CreateX
-                  website</a></h3>
-            </div>
-            <p class="portfolio__tooltip animated">
-              Сlick on the title of any work to see its full version
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="contacts">
-        <div class="contacts__container">
-          <div class="contacts__data">
-            <h2 class="contacts__title animated">Contacts</h2>
-            <h3 class="contacts__subtitle animated">You can contact me in any convenient way</h3>
-            <ul class="contacts__list">
-              <li class="contacts__item animated"><img src="img/mail.webp" alt="Не удалось загрузить изображение"
-                  class="contacts__icon">eueoe324@yandex.com</li>
-              <li class="contacts__item animated"><img src="img/telegram.webp" alt="Не удалось загрузить изображение" class="contacts__icon">@fb24m</li>
-              <li class="contacts__item animated"><img src="img/kwork.webp" alt="Не удалось загрузить изображение" class="contacts__icon">fb24m</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </main>
-    <footer class="footer">
-    <div class="footer__container">
-        
-    </div>
-</footer>
-    
-    
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-<!-- Подключение главного JavaScript-файла -->
-<script src="js/app.js"></script>
 </body>
 
 </html>
